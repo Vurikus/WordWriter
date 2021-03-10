@@ -7,7 +7,7 @@
 .idea/uiDesigner.xml
 .idea/workspace.xml
 .idea/artifacts/
-*/target/
+target/
 *.iml
 .idea/*
 */persistence.xml

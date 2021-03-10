@@ -1,0 +1,10 @@
+stages:
+  - build
+
+build:
+  stage: build
+  image: docker
+  services:
+    - docker:dind
+  script:
+    - echo "it work"
