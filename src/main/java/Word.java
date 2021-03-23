@@ -45,6 +45,10 @@ public class Word {
         paragraphConfig.setFontSize(8);
         // HEX цвет без решетки #
 //        paragraphConfig.setColor("31d8eb");
-        paragraphConfig.setText(body);
+        String[] split = body.split("\n");
+        for (String s: split) {
+            paragraphConfig.setText(s);
+            paragraphConfig.addBreak();
+        }
     }
 }

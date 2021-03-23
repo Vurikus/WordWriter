@@ -28,6 +28,7 @@ public class MyFileReader {
             }
 //            line.replace("\n", "");
             text.append(line);
+            text.append(System.getProperty("line.separator"));
             line = reader.readLine();
         }
         return text.toString();
